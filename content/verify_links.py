@@ -2,7 +2,7 @@ import os
 import re
 import sys
 
-workspace_dir = r"c:\Users\MSI Bravo15\Med-Year-5"
+workspace_dir = os.path.dirname(os.path.abspath(__file__))
 
 # All targets to check
 targets = {

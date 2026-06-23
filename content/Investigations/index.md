@@ -1,6 +1,8 @@
 ---
+title: "🔬 Investigations Index"
 aliases:
   - "03 Investigation Index"
+  - "investigations"
 ---
 
 > อายุรศาสตร์ ปี 5 — Investigation Index (ดัชนีการส่งตรวจทางห้องปฏิบัติการและการตรวจพิเศษ)

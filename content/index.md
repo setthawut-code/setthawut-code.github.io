@@ -1,4 +1,5 @@
 ---
+title: "🗂️ Master Index"
 aliases:
   - "00 Master Index"
 ---
@@ -10,10 +11,10 @@ aliases:
 # 🗂️ Master Indexes (ดัชนีภาพรวม)
 - [[Symptoms/index|01 Symptoms Index]] (ดัชนีอาการและการส่งแนวทางวินิจฉัย)
 - [[Diseases/index|02 Disease Index]] (ดัชนีโรคทางอายุรศาสตร์)
-- [[investigations|03 Investigation Index]] (ดัชนีการตรวจทางห้องปฏิบัติการและการตรวจพิเศษ)
+- [[Investigations/index|03 Investigation Index]] (ดัชนีการตรวจทางห้องปฏิบัติการและการตรวจพิเศษ)
 - [[Emergency/index|04 Emergency Index]] (ดัชนีภาวะฉุกเฉิน)
-- [[05 Medication Summary]] (สรุปยาและข้อบ่งใช้)
-- [[06 Antibiotic Guide]] (คู่มือการใช้ยาปฏิชีวนะฉบับสมบูรณ์)
+- [[Medications/index|05 Medication Summary]] (สรุปยาและข้อบ่งใช้)
+- [[Antibiotics/index|06 Antibiotic Guide]] (คู่มือการใช้ยาปฏิชีวนะฉบับสมบูรณ์)
 
 
 ---

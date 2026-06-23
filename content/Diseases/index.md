@@ -1,4 +1,5 @@
 ---
+title: "🧬 Diseases Index"
 aliases:
   - "02 Disease Index"
 ---

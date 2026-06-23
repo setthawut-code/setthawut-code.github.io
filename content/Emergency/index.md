@@ -1,4 +1,5 @@
 ---
+title: "🚨 Emergency Index"
 aliases:
   - "04 Emergency Index"
 ---

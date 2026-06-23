@@ -6,8 +6,8 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  locale: th-TH
+  baseUrl: setthawut-code.github.io
   ignorePatterns:
     - private
     - templates
@@ -16,30 +16,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Kanit
+      body: Noto Sans Thai
+      code: JetBrains Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#fafafa"
+        lightgray: "#eaeaea"
+        gray: "#c0c0c0"
+        darkgray: "#333333"
+        dark: "#111111"
+        secondary: "#2563eb"
+        tertiary: "#1d4ed8"
+        highlight: rgba(37, 99, 235, 0.05)
+        textHighlight: "rgba(253, 224, 71, 0.35)"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#0e0e11"
+        lightgray: "#1f1f23"
+        gray: "#3a3a3e"
+        darkgray: "#a1a1a5"
+        dark: "#f3f3f5"
+        secondary: "#60a5fa"
+        tertiary: "#93c5fd"
+        highlight: rgba(96, 165, 250, 0.08)
+        textHighlight: "rgba(234, 179, 8, 0.25)"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -115,6 +115,13 @@ plugins:
     enabled: true
   - source: github:quartz-community/og-image
     enabled: true
+    options:
+      colorScheme: darkMode
+      width: 1200
+      height: 630
+      excludeRoot: false
+      defaultTitle: Ultimate Med
+      defaultDescription: Master Note สำหรับทบทวนอายุรศาสตร์ ปี 5
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
@@ -127,6 +134,11 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    options:
+      title: Explorer
+      folderClickBehavior: collapse
+      folderDefaultState: collapsed
+      useSavedState: true
     layout:
       position: left
       priority: 50
@@ -159,7 +171,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: github:quartz-community/tag-list
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -201,7 +213,12 @@ plugins:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      limit: 5
+    layout:
+      position: right
+      priority: 60
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -248,7 +265,12 @@ plugins:
       priority: 100
       display: all
   - source: github:quartz-community/stacked-pages
-    enabled: false
+    enabled: true
+    options:
+      maxTabs: 8
+      mobileBreakpoint: 800
+      showSpines: true
+      animateTransitions: true
     layout:
       position: afterBody
       priority: 50

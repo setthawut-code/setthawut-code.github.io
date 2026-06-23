@@ -1,4 +1,5 @@
 ---
+title: "🌡️ Symptoms Index"
 aliases:
   - "01 Symptoms Index"
 ---
